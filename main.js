@@ -28,4 +28,9 @@ app.on('ready', () => {
         protocol: 'file:',
         slashes: true
     }));
+
+    // Quit app when closed 
+    mainWindow.on('closed', () => {
+        app.quit();
+    });
 });
