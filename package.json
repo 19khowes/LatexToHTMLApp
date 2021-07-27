@@ -1,0 +1,28 @@
+{
+  "name": "latextohtml",
+  "version": "1.0.0",
+  "description": "A latex to HTML conversion application based on electronJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19khowes/LatexToHTMLApp.git"
+  },
+  "keywords": [
+    "pandoc",
+    "electron",
+    "latex",
+    "html"
+  ],
+  "author": "Kade Howes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19khowes/LatexToHTMLApp/issues"
+  },
+  "homepage": "https://github.com/19khowes/LatexToHTMLApp#readme",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
