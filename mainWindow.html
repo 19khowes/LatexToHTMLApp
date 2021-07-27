@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaTeX to HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./mainWindow.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-wrapper">
-            <!-- <a class="brand-logo center">LaTeX to HTML Converter</a> -->
-            <h1>LaTeX to HTML Converter</h1>
+            <a class="brand-logo center">LaTeX to HTML Converter</a>
+            <!-- <h1 class="center">LaTeX to HTML Converter</h1> -->
         </div>
     </nav>
 
-    <p class="step"><strong>Step 1: </strong>make sure that the .tex file you would like to convert is on your desktop.</p>
-    <p class="step"><strong>Step 2: </strong>enter the full name of the file in the field below (including the extension).</p>
-    <label for="input-file">Enter file name here:</label>
-    <input type="text" id="input-file">
-    <p class="step"><strong>Step 3: </strong>click 'Convert'.</p>
-    <button id="convert-btn" class="btn">Convert</button>
-    <p class="step"><strong>Step 4: </strong>copy and paste the displayed html code into your Canvas page.</p>
-
+    <div class="container">
+        <p class="step"><strong>Step 1: </strong>make sure that the .tex file you would like to convert is on your
+            desktop.</p>
+        <p class="step"><strong>Step 2: </strong>enter the full name of the file in the field below (including the
+            extension).</p>
+        <label for="input-file">Enter file name here:</label>
+        <input type="text" id="input-file">
+        <p class="step"><strong>Step 3: </strong>click 'Convert'.</p>
+        <button id="convert-btn" class="btn">Convert</button>
+        <p class="step"><strong>Step 4: </strong>copy and paste the displayed html code into your Canvas page.</p>
+    </div>
     <div class="html-display">
 
     </div>
     <script src="mainWindow.js"></script>
 </body>
+
 </html>
